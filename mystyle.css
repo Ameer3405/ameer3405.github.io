@@ -1,0 +1,1019 @@
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: underline;
+	color: #0F8C8C;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+body {
+	font-size: 11.5pt;
+	color: #5C5B5B;
+	line-height: 1.50em;
+/* 	background: #E0DCDC url(images/img01.gif) repeat-x top left; */
+	background: #FFFFFF url(images/img01.gif) repeat-x top left;
+}
+
+body,input {
+	font-family: Georgia, serif;
+}
+
+strong {
+	color: #2C2B2B;
+}
+
+br.clearfix {
+	clear: both;
+}
+
+h1,h2,h3,h4 {
+	font-weight: normal;
+	letter-spacing: -1px;
+}
+
+h2 {
+	font-size: 2.25em;
+}
+
+h2,h3,h4 {
+	color: #2C2B2B;
+	margin-bottom: 1em;
+}
+
+h3 {
+	font-size: 1.75em;
+}
+
+h4 {
+	font-size: 1.5em;
+}
+
+img.alignleft {
+	margin: 5px 20px 20px 0;
+	float: left;
+}
+
+img.aligntop {
+	margin: 5px 0 20px 0;
+}
+
+img.pic {
+	padding: 5px;
+	border: solid 1px #D4D4D4;
+}
+
+p {
+	margin-bottom: 1.5em;
+}
+
+ul {
+	margin-bottom: 1.5em;
+}
+
+ul h4 {
+	margin-bottom: 0.35em;
+}
+
+.box {
+	overflow: hidden;
+	margin-bottom: 1em;
+}
+
+.date {
+	background: #6E6E6E;
+	padding: 5px 6px 5px 6px;
+	margin: 0 6px 0 0;
+	color: #FFFFFF;
+	font-size: 0.8em;
+	border-radius: 2px;
+}
+#contenthome {
+	width: 630px;
+	float: left;
+	padding: 0px;
+	text-align:justify;
+}
+
+#content {
+	width: 660px;
+	float: left;
+	padding: 0;
+}
+
+#content-box1 {
+	width: 320px;
+	float: left;
+}
+
+#content-box2 {
+	margin: 0 0 0 330px;
+	width: 330px;
+}
+
+#page {
+	padding: 15px 15px 15px 15px;
+	position: relative;
+	width: 960px;
+	margin: 0;
+}
+
+
+/* #page here is the change here in mystyle.css to match with mystyle_contents.css for #wrapper  */
+/* #page {
+	padding: 5px 5px 5px 5px;
+	position: relative;
+	width: 100px;
+	margin: 0;
+} */
+
+
+#page .section-list {
+	list-style: none;
+	padding-left: 0;
+}
+/*content 1 list item */
+#page .section-list li {
+	clear: both;
+	padding: 5px;
+}
+
+/*#page ul {
+	list-style: none;
+}
+
+#page ul li {
+	border-top: dotted 1px #C4C4C4;
+	padding: 5px;
+}
+
+#page ul li.first {
+	padding: 5px;
+	border-top: 0;
+}*/
+
+#page-bottom {
+	position: relative;
+	margin: 0;
+	background: #cd8300;
+	border: solid 1px #FFFFFF;
+	width: 888px;
+	padding: 45px 45px 0 45px;
+	color: #DCDCDC;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	text-shadow: 0 1px 1px #cd8300;
+	
+	/*this puts curves at the edges*/
+	
+	border-radius: 6px;
+	box-shadow: 0px 5px 20px 2px rgba(0,0,0,0.1);
+}
+
+
+
+#page-bottom a {
+	color: #F5F5F5;
+}
+
+#page-bottom h2, #page-bottom h3, #page-bottom h4 {
+	color: #FFFFFF;
+}
+
+#page-bottom ul {
+	list-style: none;
+}
+
+
+/*bottom side bar dotted lines*/
+
+#page-bottom ul li {
+	border-top: dotted 1px #CDCDCD;
+	padding: 15px 0 15px 0;
+}
+
+#page-bottom ul li.first {
+	padding-top: 0;
+	border-top: 0;
+}
+
+#page-bottom-content {
+	width: 665px;
+	float: left;
+}
+
+#page-bottom-sidebar {
+	width: 200px;
+	margin: 0 0 0 690px;
+}
+
+
+
+
+/*########*/
+/*Sidebar*/
+/*########*/
+#topleftsidebar {
+	width:210px;
+	margin-top:45px;
+	margin-right:660px;
+	margin-bottom:10px;
+	margin-left:30px;
+	display:block;
+	padding:5px;
+	background: #CCC;
+	border-radius: 6px;
+	box-shadow: 0px 5px 20px 2px rgba(0,0,0,0.1);
+	
+}
+
+#twittersidebar {
+	width: 250px;
+	margin: 0 0 0 650px;
+	display:block;
+	padding:5px;
+	background: #CCC;
+	border-radius: 6px;
+	box-shadow: 0px 5px 20px 2px rgba(0,0,0,0.1);
+	
+}
+/* #midcontent1 {
+	width: 410px;
+	margin: 0 0 0 225px;
+	display:block;
+	padding:5px;
+	background: #F7FE2E;
+	border-radius: 6px;
+	box-shadow: 0px 5px 20px 2px rgba(0,0,0,0.1);
+} */
+
+#midcontent2 {
+	width: 400px;
+	display:block;
+	padding:5px;
+	background: #CCC;
+	float:right;
+}
+
+
+
+
+
+
+
+
+
+
+#wrapper_midcontent1 {
+	width: 230px;
+	height:300px;
+	display:block;
+	padding:5px;
+	background: #A9F5E1;
+	border-radius: 6px;
+	box-shadow: 0px 5px 20px 2px rgba(0,0,0,0.1);
+	position:relative;
+	float:right;
+}
+
+
+#wrapper_midcontent2 {
+	width: 350px;
+	height:auto;
+	display:block;
+	padding:5px;
+	background: #FFF;
+	border-radius: 6px;
+	box-shadow: 0px 5px 20px 2px rgba(0,0,0,0.1);
+	position:relative;
+	float:right;
+}
+
+
+
+
+/* Wrapper for mycontent is written in the mystyle_contents.css file */
+
+/* #wrapper {
+	position: relative;
+	width: 325px; height: 1200px;
+	margin: 5px auto 0 auto;
+	/* background: #9df9ef; */
+	/* background: #B7E1E4; */
+/* 	background: #90EE90;   */
+	/* border-radius: 10px;
+	box-shadow: 0px 5px 20px 2px rgba(0,0,0,0.1);
+	padding: 15px; */
+} */
+
+#wrapper_mainpage {
+	position: relative;
+	width: 940px; height: 1750px;
+	margin: 10px auto 0 auto;
+/* 	background: #FFFFFF; */
+	background: #b1cbfc;
+	/* background: #B7E1E4; */
+	border-radius: 10px;
+	box-shadow: 0px 5px 20px 2px rgba(0,0,0,0.1);
+	padding: 20px;
+
+	margin-left: 20px;
+}
+
+
+#wrapper_mainpage_world {
+	position: relative;
+	width: 1300px; height: 2100px;
+	margin: 10px auto 0 auto;
+/* 	background: #FFFFFF; */
+	background: #b1cbfc;
+	/* background: #B7E1E4; */
+	border-radius: 10px;
+	box-shadow: 0px 5px 20px 2px rgba(0,0,0,0.1);
+	padding: 20px;
+
+	margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#midcontent_DT {
+	width: 950px;  height: auto;
+	margin: 10 0 0 auto;
+	display:block;
+	padding:5px;
+/*	background: #FFFFFF;*/
+	background: #A9F5E1;
+	border-radius: 6px;
+	box-shadow: 0px 5px 20px 2px rgba(0,0,0,0.1);
+}
+
+#wrapper_DT {
+	position: relative;
+	width: 920px; height: 500px;
+	margin: 10px auto 0 auto;
+/* 	background: #FFFFFF; */
+	background: #8AABCA;
+	border-radius: 10px;
+	box-shadow: 0px 5px 20px 2px rgba(0,0,0,0.1);
+	padding: 20px;
+}
+
+
+#wrapper_resume {
+	position: relative;
+	width: 920px; height: 1600px;
+	margin: 10px auto 0 auto;
+	background: #B7E1E4;
+/* 	background: #8AABCA; */
+	border-radius: 10px;
+	box-shadow: 0px 5px 20px 2px rgba(0,0,0,0.1);
+	padding: 20px;
+}
+
+#wrapper_cv {
+	position: relative;
+	width: 950px; height: auto;
+	margin: 10px auto 0 auto;
+	background: #B7E1E4;
+/* 	background: #8AABCA; */
+	border-radius: 10px;
+	box-shadow: 0px 5px 20px 2px rgba(0,0,0,0.1);
+	padding: 20px;
+}
+
+
+
+#wrapper_research1 {
+	position: relative;
+	width: 950px; height: auto;
+	margin: 10px auto 0 auto;
+	background: #B7E1E4;
+/* 	background: #8AABCA; */
+	border-radius: 10px;
+	box-shadow: 0px 5px 20px 2px rgba(0,0,0,0.1);
+	padding: 20px;
+}
+
+
+#wrapper_research2 {
+	position: relative;
+	width: 950px; height: auto;
+	margin: 10px auto 0 auto;
+/* 	background: #F0D58C; */
+/*	background: #8AABCA;*/
+	background: #B7E1E4;
+border-radius: 10px;
+	box-shadow: 0px 5px 20px 2px rgba(0,0,0,0.1);
+	padding: 20px;
+}
+
+
+#wrapper_courses_taught {
+	position: relative;
+	width: 950px; height: auto;
+	margin: 10px auto 0 auto;
+/* 	background: #F0D58C; */
+	background: #B7E1E4;
+/* 	background: #FFFFFF; */
+	border-radius: 10px;
+	box-shadow: 0px 5px 20px 2px rgba(0,0,0,0.1);
+	padding: 20px;
+}
+
+#wrapper_courses_project {
+	position: relative;
+	width: 950px; height: auto;
+	margin: 10px auto 0 auto;
+/* 	background: #F0D58C; */
+/* 	background: #8AABCA; */
+	background: #B7E1E4;
+	border-radius: 10px;
+	box-shadow: 0px 5px 20px 2px rgba(0,0,0,0.1);
+	padding: 20px;
+}
+
+
+
+#wrapper_courses_taken {
+	position: relative;
+	width: 950px; height: auto;
+	margin: 10px auto 0 auto;
+/* 	background: #F0D58C; */
+/* 	background: #8AABCA; */
+	background: #B7E1E4;
+	border-radius: 10px;
+	box-shadow: 0px 5px 20px 2px rgba(0,0,0,0.1);
+	padding: 20px;
+}
+
+
+#wrapper_evaluation {
+	position: relative;
+	width: 950px; height:auto;
+	margin: 5px auto 0 auto;
+	background: #B7E1E4;
+	border-radius: 6px;
+	box-shadow: 0px 5px 20px 2px rgba(0,0,0,0.1);
+	padding: 20px;
+
+	margin-top: 20px;
+	margin-left: 30px;
+}
+
+
+
+
+#wrapper_phrases {
+	position: relative;
+	width: 920px; height: 14600px;
+	margin: 10px auto 0 auto;
+	background: #F0D58C;
+/* 	background: #8AABCA; */
+	border-radius: 10px;
+	box-shadow: 0px 5px 20px 2px rgba(0,0,0,0.1);
+	padding: 20px;
+}
+
+
+#wrapper_friends {
+	position: relative;
+	width: 920px; height: 400px;
+	margin: 10px auto 0 auto;
+/* 	background: #F0D58C; */
+/* 	background: #8AABCA; */
+	background: #FFFFFF;
+	border-radius: 10px;
+	box-shadow: 0px 5px 20px 2px rgba(0,0,0,0.1);
+	padding: 20px;
+}
+
+
+#wrapper_pictures {
+	position: relative;
+	width: 920px; height: 400px;
+	margin: 10px auto 0 auto;
+/* 	background: #F0D58C; */
+/* 	background: #8AABCA; */
+	background: #FFFFFF;
+	border-radius: 10px;
+	box-shadow: 0px 5px 20px 2px rgba(0,0,0,0.1);
+	padding: 20px;
+}
+
+
+
+
+#wrapper_pictures_extra {
+	position: relative;
+	width: 1850px; height: 420px;
+	margin: 10px auto 0 auto;
+	background: #d0bdf4;
+/* 	background: #8AABCA; */
+/* 	background: #e5eaf5; */
+	border-radius: 10px;
+	box-shadow: 0px 5px 20px 2px rgba(0,0,0,0.1);
+	padding: 20px;
+}
+
+#wrapper_pictures_links {
+	position: relative;
+	width: 1850px; height: 30px;
+	margin: 10px auto 0 auto;
+	/* background: #d0bdf4; */
+	background: #49f5bc;
+/* 	background: #e5eaf5; */
+	border-radius: 10px;
+	box-shadow: 0px 5px 20px 2px rgba(0,0,0,0.1);
+	padding: 20px;
+}
+
+
+#wrapper_pictures_tworows {
+	position: relative;
+	width: 1850px; height: 420px;
+	margin: 10px auto 0 auto;
+/* 	background: #F0D58C; */
+/* 	background: #8AABCA; */
+	background: #B7E1E4;
+	border-radius: 10px;
+	box-shadow: 0px 5px 20px 2px rgba(0,0,0,0.1);
+	padding: 20px;
+}
+
+
+
+/* <!-- Student Research Initiatives student_research.html --> */
+#wrapper_student_research {
+	position: relative;
+	width: 1300px; height:11300px;
+	margin: 0 auto;
+	background: #FFF;
+	border-radius: 10px;
+	box-shadow: 0px 2px 5px 2px rgba(0,0,0,0.1);
+	padding: 45px; /* move text from top edge of the plate */
+	/* border-radius: 5px; */
+	margin-top: 0px; /* move the plate */
+	margin-left: 30px;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+
+#wrapper_links_course {
+	position: relative;
+	width: 1000px; height: 220px;
+	margin: 10px auto 0 auto;
+/* 	background: #F0D58C; */
+/* 	background: #8AABCA; */
+	background: #B7E1E4;
+	border-radius: 10px;
+	box-shadow: 0px 5px 20px 2px rgba(0,0,0,0.1);
+	padding: 20px;
+}
+
+
+#wrapper_links_course_site {
+	position: relative;
+	width: 1000px; height: 550px;
+	margin: 10px auto 0 auto;
+/* 	background: #F0D58C; */
+/* 	background: #8AABCA; */
+	background: #B7E1E4;
+	border-radius: 10px;
+	box-shadow: 0px 5px 20px 2px rgba(0,0,0,0.1);
+	padding: 20px;
+}
+
+
+#wrapper_links {
+	position: relative;
+	width: 920px; height: 500px;
+	margin: 10px auto 0 auto;
+/* 	background: #F0D58C; */
+/* 	background: #8AABCA; */
+	background: #B7E1E4;
+	border-radius: 10px;
+	box-shadow: 0px 5px 20px 2px rgba(0,0,0,0.1);
+	padding: 20px;
+}
+
+
+#wrapper_music {
+	position: relative;
+	width: 1200px; height: 275px;
+	margin: 10px auto 0 auto;
+/* 	background: #F0D58C; */
+	background: #d0bdf4;
+/* 	background: white; */
+	border-radius: 10px;
+	box-shadow: 0px 5px 20px 2px rgba(0,0,0,0.1);
+	padding: 20px;
+}
+
+
+
+#wrapper_harmonium {
+	position: relative;
+	width: 1200px; height: 1600px;
+	margin: 10px auto 0 auto;
+/* 	background: #F0D58C; */
+	background: #bddef4;
+/* 	background: white; */
+	border-radius: 10px;
+	box-shadow: 0px 5px 20px 2px rgba(0,0,0,0.1);
+	padding: 20px;
+}
+
+
+
+#wrapper_interview1 {
+	position: relative;
+	width: 550px; height: 200px;
+	margin: 10px auto 0 auto;
+/* 	background: #F0D58C; */
+/* 	background: #8AABCA; */
+	background: #B7E1E4;
+	border-radius: 10px;
+	box-shadow: 0px 5px 20px 2px rgba(0,0,0,0.1);
+	padding: 20px;
+}
+
+
+#wrapper_interview2 {
+	position: relative;
+	width: 550px; height: 5790px;
+	margin: 10px auto 0 auto;
+/* 	background: #F0D58C; */
+/* 	background: #8AABCA; */
+	background: #B7E1E4;
+	border-radius: 10px;
+	box-shadow: 0px 5px 20px 2px rgba(0,0,0,0.1);
+	padding: 20px;
+}
+
+
+#wrapper_interview3 {
+	position: relative;
+	width: 920px; height: 75px;
+	margin: 10px auto 0 auto;
+/* 	background: #F0D58C; */
+/* 	background: #8AABCA; */
+	background: #B7E1E4;
+	border-radius: 10px;
+	box-shadow: 0px 5px 20px 2px rgba(0,0,0,0.1);
+	padding: 20px;
+}
+
+
+
+/* <!-- Course Overview heading plate --> */
+#wrapper_overview {
+	position: relative;
+	width: 1280px; height:90px;
+	margin: 10px auto 0 auto;
+/* 	background: #F0D58C; */
+	background: #FFFFFF;
+	/* background: #ffdead; */
+	border-radius: 10px;
+	box-shadow: 0px 5px 20px 2px rgba(0,0,0,0.1);
+	padding: 20px;
+}
+
+
+
+/* <!-- Nepal class 2023 Video plate --> */
+#wrapper_video2023 {
+	position: relative;
+	width: 1280px; height:90px;
+	margin: 10px auto 0 auto;
+	background: #B7E1E4;
+	/* background: #FFFFFF; */
+	/* background: #ffdead; */
+	border-radius: 10px;
+	box-shadow: 0px 5px 20px 2px rgba(0,0,0,0.1);
+	padding: 20px;
+}
+
+
+
+/* <!-- Nepal class 2024 plate --> */
+#wrapper_class2024 {
+	position: relative;
+	width: 1280px; height:70px;
+	margin: 10px auto 0 auto;
+	background: #B7E1E4;
+	/* background: #FFFFFF; */
+	/* background: #ffdead; */
+	border-radius: 10px;
+	box-shadow: 0px 5px 20px 2px rgba(0,0,0,0.1);
+	padding: 20px;
+}
+
+
+
+
+/* <!-- Nepal class 2025 plate --> */
+#wrapper_class2025 {
+	position: relative;
+	width: 1280px; height:55px;
+	margin: 10px auto 0 auto;
+	background: #B7E1E4;
+	/* background: #FFFFFF; */
+	/* background: #ffdead; */
+	border-radius: 10px;
+	box-shadow: 0px 5px 20px 2px rgba(0,0,0,0.1);
+	padding: 20px;
+}
+
+
+
+/* Nepal Travel Class 2023 main paragraph */
+#wrapper_Nepalclass_heading {
+	position: relative;
+	width: 1280px; height: 390px;
+	margin: 10px auto 0 auto;
+/* 	background: #F0D58C; */
+	background: #B7E1E4;
+	/* background: #ffdead; */
+	border-radius: 10px;
+	box-shadow: 0px 5px 20px 2px rgba(0,0,0,0.1);
+	padding: 20px;
+}
+
+/*  General information  */
+#wrapper_Nepalclass1 {
+	position: relative;
+	width: 1280px; height: 650px;
+	margin: 10px auto 0 auto;
+/* 	background: #F0D58C; */
+	background: #B7E1E4;
+	/* background: #ffdead; */
+	border-radius: 10px;
+	box-shadow: 0px 5px 20px 2px rgba(0,0,0,0.1);
+	padding: 20px;
+}
+
+
+/* Sherpa & comcept map page*/
+#wrapper_Nepalclass_sherpa {
+	position: relative;
+	width: 1280px; height: 640px;
+	margin: 10px auto 0 auto;
+/* 	background: #F0D58C; */
+	background: #AED6F1;
+	/* background: #ffdead; */
+	border-radius: 10px;
+	box-shadow: 0px 5px 20px 2px rgba(0,0,0,0.1);
+	padding: 20px;
+}
+
+
+/* <!-- Guest Lecturers Model --> */
+#wrapper_Lecturers {
+	position: relative;
+	width: 1280px; height:180px;
+	margin: 10px auto 0 auto;
+/* 	background: #F0D58C; */
+	background: #B7E1E4;
+	/* background: #ffdead; */
+	border-radius: 10px;
+	box-shadow: 0px 5px 20px 2px rgba(0,0,0,0.1);
+	padding: 20px;
+}
+
+
+/* <!-- Team Dynamics --> */
+#wrapper_Nepalclass6 {
+	position: relative;
+	width: 1280px; height:110px;
+	margin: 10px auto 0 auto;
+/* 	background: #F0D58C; */
+	background: #B7E1E4;
+	/* background: #ffdead; */
+	border-radius: 10px;
+	box-shadow: 0px 5px 20px 2px rgba(0,0,0,0.1);
+	padding: 20px;
+}
+
+/* Actions */
+#wrapper_Nepalclass2 {
+	position: relative;
+	width: 1280px; height: 500px;
+	margin: 10px auto 0 auto;
+/* 	background: #F0D58C; */
+	background: #B7E1E4;
+	/* background: #ffdead; */
+	border-radius: 10px;
+	box-shadow: 0px 5px 20px 2px rgba(0,0,0,0.1);
+	padding: 20px;
+}
+
+/* Important links */
+#wrapper_Nepalclass3 {
+	position: relative;
+	width: 1280px; height: 620px;
+	margin: 10px auto 0 auto;
+/* 	background: #F0D58C; */
+	background: #B7E1E4;
+	/* background: #ffdead; */
+	border-radius: 10px;
+	box-shadow: 0px 5px 20px 2px rgba(0,0,0,0.1);
+	padding: 20px;
+}
+
+
+
+#wrapper_pictures_maps {
+	position: relative;
+	width: 1450px; height: 2750px;
+	margin: 10px auto 0 auto;
+/* 	background: #F0D58C; */
+/* 	background: #8AABCA; */
+	background: #AED6F1;
+	border-radius: 10px;
+	box-shadow: 0px 5px 20px 2px rgba(0,0,0,0.1);
+	padding: 20px;
+}
+
+
+
+#wrapper_reading_materials1 {
+	position: relative;
+	width: 1280px; height: 380px;
+	margin: 10px auto 0 auto;
+/* 	background: #F0D58C; */
+	background: #B7E1E4;
+	/* background: #d0bdf4; */
+	border-radius: 10px;
+	box-shadow: 0px 5px 20px 2px rgba(0,0,0,0.1);
+	padding: 20px;
+}
+
+
+
+#wrapper_reading_materials2 {
+	position: relative;
+	width: 1280px; height: 475px;
+	margin: 10px auto 0 auto;
+/* 	background: #F0D58C; */
+	background: #B7E1E4;
+	/* background: #d0bdf4; */
+	border-radius: 10px;
+	box-shadow: 0px 5px 20px 2px rgba(0,0,0,0.1);
+	padding: 20px;
+}
+
+
+#wrapper_reading_materials3 {
+	position: relative;
+	width: 1280px; height: 330px;
+	margin: 10px auto 0 auto;
+/* 	background: #F0D58C; */
+	background: #B7E1E4;
+	/* background: #d0bdf4; */
+	border-radius: 10px;
+	box-shadow: 0px 5px 20px 2px rgba(0,0,0,0.1);
+	padding: 20px;
+}
+
+
+
+#wrapper_reading_materials_journal {
+	position: relative;
+	width: 960px; height: 100px;
+	margin: 10px auto 0 auto;
+/* 	background: #F0D58C; */
+	background: #AED6F1;
+	/* background: #d0bdf4; */
+	border-radius: 10px;
+	box-shadow: 0px 5px 20px 2px rgba(0,0,0,0.1);
+	padding: 20px;
+}
+
+
+
+#wrapper_reading_materials_experiment {
+	position: relative;
+	width: 960px; height: 140px;
+	margin: 10px auto 0 auto;
+/* 	background: #F0D58C; */
+	background: #AED6F1;
+	/* background: #d0bdf4; */
+	border-radius: 10px;
+	box-shadow: 0px 5px 20px 2px rgba(0,0,0,0.1);
+	padding: 20px;
+}
+
+
+/* <!-- News Coverage --> */
+#wrapper_News {
+	position: relative;
+	width: 1280px; height:200px;
+	margin: 10px auto 0 auto;
+/* 	background: #F0D58C; */
+	background: #B7E1E4;
+	/* background: #ffdead; */
+	border-radius: 10px;
+	box-shadow: 0px 5px 20px 2px rgba(0,0,0,0.1);
+	padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+/* <!-- Galapagos main page, for the file: galapagos.html --> */
+#wrapper_galapagos {
+	position: relative;
+	width: 1350px; height:2500px;
+	margin: 0 auto;
+	background: #FFF;
+	border-radius: 10px;
+	box-shadow: 0px 2px 5px 2px rgba(0,0,0,0.1);
+	padding: 45px; /* move text from top edge of the plate */
+	/* border-radius: 5px; */
+	margin-top: 0px; /* move the plate */
+	margin-left: 100px;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+
+
+/* <!-- Galapagos Physics page, for the file: galapagos_physics.html --> */
+#wrapper_galapagos_physics {
+	position: relative;
+	width: 1350px; height:3600px;
+	margin: 0 auto;
+	background: #FFF;
+	border-radius: 10px;
+	box-shadow: 0px 2px 5px 2px rgba(0,0,0,0.1);
+	padding: 45px; /* move text from top edge of the plate */
+	/* border-radius: 5px; */
+	margin-top: 0px; /* move the plate */
+	margin-left: 100px;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+
+
+
+/* <!-- Galapagos Interdisciplinary page, for the file: galapagos_inter.html --> */
+#wrapper_galapagos_inter {
+	position: relative;
+	width: 1350px; height:2700px;
+	margin: 0 auto;
+	background: #FFF;
+	border-radius: 10px;
+	box-shadow: 0px 2px 5px 2px rgba(0,0,0,0.1);
+	padding: 45px; /* move text from top edge of the plate */
+	/* border-radius: 5px; */
+	margin-top: 0px; /* move the plate */
+	margin-left: 100px;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+
+
+
+/* <!-- Guest Speakers --> */
+#wrapper_guestspeakers{
+	position: relative;
+	width: 1450px; height:2050px;
+	margin: 0 auto;
+	background: #FFF;
+	border-radius: 10px;
+	box-shadow: 0px 2px 5px 2px rgba(0,0,0,0.1);
+	padding: 45px; /* move text from top edge of the plate */
+	/* border-radius: 5px; */
+	margin-top: 0px; /* move the plate */
+	margin-left: 100px;
+	/* padding-left: 5%; */
+	/* padding-right: 5%; */
+}
