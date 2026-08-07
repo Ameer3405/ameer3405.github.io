@@ -1,0 +1,532 @@
+<!-- <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"> -->
+<!DOCTYPE html>
+
+<HTML>
+
+<HEAD>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <title>Galapagos Presentations</title>
+
+  <link rel="stylesheet" type="text/css" href="mystyle.css" />
+
+
+<style>
+  /* Add CSS styles here */
+  body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #f0f0f0;
+      color: #333;
+      margin: 0;
+      padding: 0;
+  }
+  /* .container {
+      width: 75%;
+      margin: auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      border-radius: 5px;
+      margin-top: 20px;
+      padding-left: 5%;
+      padding-right: 5%;
+  } */
+
+  h1 {
+      /* color: #007bff; */
+      color: black;
+  }
+
+  h2 {
+      /* color: #007bff; */
+      color:black;
+  }
+
+  h3 {
+      /* color: #007bff; */
+      color: black;
+  }
+
+
+  h4 {
+      color: black; 
+      
+      padding: 0;  /* Remove any padding if needed */           
+  }
+
+
+      /* this will wrap the text with image */
+      img {
+      float: right;
+      margin: 20px;
+  }
+
+
+    /* CSS to reduce space between bullet lines */
+    ul {
+      padding: 0; /* Remove default padding */
+      margin: 50; /* Remove default margin */
+
+      /* list-style: none;  */
+      /* Remove default bullet points */
+
+      /* CSS styles to customize font size of bullet points */
+      font-size: 16px; /* Change the font size to your desired value */
+    }
+
+    li {
+      margin-bottom: 20px; /* Adjust margin between list items */
+    }
+
+
+    /* CSS styles to increase line spacing in the header */
+    header {
+      line-height: 1.2; /* Adjust the value to increase or decrease the spacing */
+    }
+    /* CSS styles to make headings bold */
+    /* h1, h2, h3, h4, h5, h6 { */
+      h1, h2, h3 {
+      font-weight: bold;
+    }
+
+    h4 {
+      font-weight: bold;
+    }
+
+    /* CSS to set consistent font sizes for all headings */
+    /* h1, h2, h3, h4, h5, h6 {
+      font-size: 24px; 
+      /* Adjust the font size as needed */
+    /* }  */
+
+
+    /* Define a class to unbold text */
+    .unbold {
+        font-weight: normal;
+    }
+
+
+ /* CSS styles to change the font size, font type, and line spacing inside a paragraph */
+    p {
+      font-size: 18px; /* Adjust the font size as needed */
+      font-family: 'Times New Roman', Times, serif; /* Specify the font family */
+      line-height:1.5; /* Line spacing */
+    }
+
+
+
+    /* Style paragraphs with the "custom-paragraph" class */
+    .custom-paragraph {
+        font-family: Arial, sans-serif; /* Specify font type */
+        font-size: 18px; /* Specify font size */
+        line-height: 1.5; /* Specify line spacing */
+    }   
+
+    
+
+    /* CSS styles to customize hyperlinked text */
+    a {
+      color: red; /* Change the color to your desired color */
+    }
+  
+  
+    /* Apply indentation to paragraphs with the "indented" class */
+    .indented {
+        margin-left: 40px; /* Adjust the value as needed */
+    }
+
+
+</style>
+
+
+<!-- start For Display button on Hover for the Button Links in the heading  -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.button {
+  padding: 5px 5px;
+  font-size: 14px;
+  text-decoration: none; /* removes the undeline */
+  text-align: center;
+  line-height: 10px;    /* this moves the text up or down the line */
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  /* background-color: #04AA6D; */
+  background-color: #007bff;
+  border: none;
+  border-radius: 15px;
+  /* box-shadow: 0 9px #999; */
+
+/* CSS styles to increase space between button tabs */
+  margin-right: 0px; /* Adjust the margin to increase the space between buttons */
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  /* box-shadow: 0 5px #666; */
+  transform: translateY(4px);
+}
+</style>
+<!-- end codding for Display button on Hover  -->
+
+
+
+
+<!-- for math equtions -->
+<title>Math Equations with MathJax</title>
+
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
+
+<style>
+  /* CSS for changing button box thickness */
+  button {
+    border-width: 1px; /* Adjust the value to change the thickness */
+  }
+</style>
+
+
+
+
+
+<style>
+  ul {
+      list-style-position: inside; /* Moves the bullet inside the text block */
+  }
+
+  li {
+      padding-left: 5px; /* Adjust the left padding to reduce space */
+      margin-left: 0px; /* Adjust the margin to move the bullet to the right */
+  }
+</style>
+
+
+
+
+<style>
+  .indent {
+    margin-left: 40px; /* Adjust the value for desired indentation */
+  }
+</style>
+
+
+
+
+
+
+
+
+<!-- for a blinking button  -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blinking Link Button</title>
+<style>
+    /* Basic styling for the link button */
+    .blink-button {
+        display: inline-block;
+        padding: 2px 1px;
+        font-size: 18px;
+        /* font-family: Comic Sans MS; */
+        text-decoration: none;
+        color: white;
+        background-color: #007bff;
+        /* border: none; */
+        border:2px solid #007bff;     /* boarder size & boarder color */
+        /* border-radius: 5px;  */
+        border-radius: 18px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        animation: blink 11s infinite; /* Adding the blinking animation */
+    }
+
+    /* Blinking animation */
+    @keyframes blink {
+        30% {
+            opacity: 0;
+        }
+    }
+</style>
+
+
+
+
+
+
+
+</HEAD>
+
+
+
+<BODY>
+
+<div id="page">
+
+<div id="wrapper_galapagos_inter">
+
+<center>
+    <header>
+      <h2>Integrating The 2024 UHM-CC Galapagos Outreach Program<br>Creating Class Presentations & Learning Activities</h2> 
+      <!-- <h4>(This page was created in May 2024)</h4> -->
+      <h1>Galapagos Hotspot, Ecuador <br> June 3 - July 10</h1>
+    </header>
+</center>
+
+
+
+
+
+<br style="line-height: 40px" />
+
+<center>
+<p class="indented custom-paragraph">  
+  <span style="font-size: medium;">
+During this opportunity, I will gain hands-on professional experience in marine geophysical and ocean bottom seismic research. 
+Additionally, I will be working closely<br/> with Prof. Apuzen-Ito on creating engaging presentations and educational materials for my classes, 
+enhancing the learning journey of my students<br/> in scientific research at the University of Hawaii Maui. </span>(<em><span style="font-size: small;">This paragraph was last updated in May 2024</span></em>)
+</p>
+</center>
+
+<!-- <center>
+<p class="indented custom-paragraph"><span style="color: blue;">
+  My presentation slides from the Science Meeting onboard the R/V Sally Ride research cruise on June 25 can be found 
+<a href="https://sciencemeeting.my.canva.site/" 
+class="button"style="height:25px;width:auto"
+target="_blank"><b>HERE</b></a>.
+</span>
+(<em><span style="font-size: medium;">Last updated: July 2024</span></em>)
+</p>
+</center> -->
+
+
+<main>
+  <nav>
+      <ul>
+        <!-- <br/> -->
+        <h4><li><em>Activity 1:</em> Fall 2024 B2B Student Research Project <font color=#000000; size="4px"><span class="unbold">(<em>Last updated: August 2024</em>)</span></font></li></h4>
+        <p class="indented custom-paragraph">
+          <b>Project Title:</b> <em>Analyzing Gravity and Magnetic Data from the Galapagos Hotspot using MATLAB and Sonar Depth Measurements</em>.
+          The background information and problem statement for the project are available <a href="https://drive.google.com/file/d/19zJ-cQ1_VaQzfCtygWGxyc4bG1VWxlEj/view?usp=sharing" 
+          class="blink-button" target="_blank"><b>here</b></a>.
+
+        </p>
+        
+        <h4><li><em>Activity 2:</em> Fall 2024 PHYS 170L Laboratory #3 <font color=#000000; size="4px"><span class="unbold" style="font-size: medium;">(<em>Last updated: September 2024</em>)</span></font></li></h4>
+        <p class="indented custom-paragraph">
+          <b>Laboratory Exploration of Tectonic Plate Movements Using Vector Analysis in Lab#3, Part IV, Section 11</b> (section link 
+          <a href="https://drive.google.com/file/d/11bYEYItmOtLL_TK-idJG2zmDZsONOfuD/view?usp=sharing" class="button"style="height:25px;width:auto" target="_blank"><b>here</b></a>).
+          The objective is to predict the Future Vectors of Tectonic Plate Movements.<br><br>
+          <b>Background Information:</b> In the summer of 2024, your physics professor joined an ocean bottom seismograph project with geoscientists & principal investigators 
+          from the University of Oregon, University of Hawaii, and the University of Rhode Island on a research cruise to the Galapagos Islands. 
+          During this cruise, the team examined how the Nazca and Cocos tectonic plates are moving relative to each other, 
+          with the Nazca Plate moving 50 mm/year northwest (40° north of west) and the Cocos Plate moving 70 mm/year northeast (45° north of East). 
+          The aim is to predict their future movement using vectors (Reference: Prof. Garrett Apuzen-Ito, Department of Earth Sciences, University of Hawaii at Manoa, as discussed onboard). 
+          Please review the Lab#3 <a href="https://drive.google.com/file/d/19xKeb7zFY0fXGDEw4-7ALPNHRMsT7mOU/view?usp=sharing" target="_blank">here</a>.
+          
+          <!-- <b>Instructions:</b> On a piece of grid paper, draw the velocity vectors representing the movement of both plates using a ruler and protractor.
+           Use a scale of 1 cm = 5 mm/year or any appropriate scale and make a full-size vector diagram. 
+           Find the components of the Nazca & the Cocos velocity vectors. Draw and label these components on the diagram. 
+           Show how to use the components you found and the Component Rule for Adding Vectors to find:
+          (a) The east component of the resultant velocity. (b) The north component of the resultant velocity.
+          Using these results in a and b, draw the resultant velocity vector. Determine the measure of the resultant velocity and its direction. Label these on the diagram.
+          Verify these results mathematically (using trigonometric functions) on your diagram.           
+          Determine the resultant velocity vector for their relative motion. Predict the future direction and magnitude of the plates’ relative motion.<br>
+          SUMMARY: In a few sentences, explain what you learned from this experiment or reflect on your experience with the experiment. -->
+        </p>
+
+
+        <h4><li><em>Activity 3:</em> GO-BGC Floats Technology<font color=#000000; size="4px"><span class="unbold"> (<em>Last updated: August 2024</em>)</span></font></li></h4>
+        <p class="indented custom-paragraph">
+          Charles Hoots from UH Grads updated me about the ARGO floats we deployed in the Pacific Ocean during our research cruise: 
+          <em>"It’s an up-to-date log of all the data being relayed back each of those two ARGO floats we deployed on the cruise. Appears to transmit new data every two-weeks."</em>
+          He also shared current statuses and links for both floats. The GO-BGC data is available for free through these links:
+
+          <li class="indent">First float, deployed on 06/25: <a href="https://fleetmonitoring.euro-argo.eu/float/7902101" target="_blank">Link1</a>. (Some data from this link may be referenced 
+            during our lecture discussions on fluid dynamics later in the semester.)</li> 
+          <li class="indent">Second float, deployed on 06/30: <a href="https://fleetmonitoring.euro-argo.eu/float/7902102" target="_blank">Link2</a>.</li> 
+
+          <p class="indented custom-paragraph">
+          Prof. Emily Hooft included a paragraph about the GO-BGC technology in the cruise report last July: 
+        <em>"We deployed two floats (1578 and 1538) for the Global BioGeochemistry Array progam. The Global Ocean
+Biogeochemistry Array is a global robotic network of profiling floats carrying chemical and biological
+sensors that will revolutionize our understanding of ocean biogeochemical cycles, carbon uptake,
+acidification, deoxygenation, and ecosystem health. GO-BGC utilizes autonomous robotic floats to measure temperature, salinity, pH, nitrate, chlorophyll,
+suspended particles, light, and derived parameters DIC, pCO2 and total alkalinity in the ocean from the
+surface to 2000m. These floats can operate continuously for years in all weather conditions, providing near
+real-time observations of ocean biogeochemistry and ecosystems throughout the world’s oceans. GO-BGC
+will deploy 500 autonomous floats in the world’s oceans between 2021 and 2026 as part of the OneArgo
+array. GO-BGC data are made freely available through the Data page and the Argo data system."</em>
+</p>
+        </p>
+
+        <h4><li><em>Activity 4:</em> Fall 2024 PHYS 170L Laboratory <font color=#000000; size="4px"><span class="unbold">(<em>Last updated: Working on this document now, and soon you'll see a complete version.</em>)</span></font></li></h4>
+        <p class="indented custom-paragraph">
+          <b>Experiment Title:</b> <em> Investigating the Galapagos Spreading Center</em>. TBA <br>
+          CURRICULUM LEVEL: k12, Freshmen or Sophomore (maybe junior level okay) <br>TBA
+        </p>
+
+        <h4><li><em>Activity ():</em> Locating An Earthquake
+            <!-- <font color=#000000><span class="normal-text"><br style="line-height: 40px" />
+            Please click <a href="https://drive.google.com/file/d/1ghqiA4yWeM2gpCwk5uYoZ-zDc6iRnNBZ/view?usp=sharing" target="_blank">here</a> 
+            to access relevant model problems from my classroom</span> </font> -->
+            <font color=#000000; size="4px"><span class="unbold">(<em>To Be Updated</em>)</span></font>
+            </li></h4>
+
+            <p class="indented custom-paragraph">
+                Here is a standard <a href="https://drive.google.com/file/d/1iEayK8Zs9i2si1XpASWhyQ47jyYBZL7q/view?usp=sharing" target="_blank"><b>Laboratory exercise</b></a> 
+                focused on locating earthquakes or exploring earth science concepts that I used to incorporate into my Geology and/or Physical Science courses around 20 to 30 years ago.
+                You can check a similar text problem <a href="https://drive.google.com/file/d/1iMHeIeuoyDNPtrUuje76xyLxVBgVy4DM/view?usp=sharing" target="_blank"><b>here</b></a> 
+                regarding finding the epicenter of an earthquake that I recently introduced in my general physics lecture class.
+            </p>
+   
+
+
+
+        <h4><li><em>Activity ():</em> Expendable Bathythermograph (XBT) Measurements <font color=#000000; size="4px"><span class="unbold">(<em>To Be Updated</em>)</span></font>
+        </li></h4>
+        <p>
+
+        </p>
+
+
+        <br style="line-height: 24px" />
+
+
+        <h4><li><em>Activity ():</em> Investigation into Seismic Data <font color=#000000; size="4px"><span class="unbold"> (<em>To Be Updated</em>)</span></font>
+        <!-- <font color=#000000;><span class="unbold" style="font-size: 20px;"><br style="line-height: 40px;" />Please click <a href="https://seismic-explorer.concord.org/" target="_blank">here</a> 
+          for relevant online resources that I utilized for the Literature Review on Virtual Labs</span></font> -->
+            </li></h4>
+
+          <p class="indented custom-paragraph">
+            Please click <a href="https://seismic-explorer.concord.org/" target="_blank">here</a> for relevant online resources that 
+            I utilized for the Literature Review on Virtual Labs. This Earth Science literature link, also known as Sysmic Explorer, 
+            features two prominent buttons positioned at the bottom of the page,
+          labeled <mark>Map Type</mark> and <mark>Data Type</mark>. These buttons provide convenient access to a variety 
+          of visualization options, offering a range of useful tools for exploring data and maps.
+          <em>Of particular interest to me currently are the topics of Volcanic Eruptions and Tectonic Plate Movement around the Galapagos Islands.</em> Please take a look at my
+          map <a href="https://drive.google.com/file/d/1gfdtC6bMiXodB75WP6VzAOTFgTJl7EJu/view?usp=sharing" target="_blank"><b>here</b></a> for the movement of tectonic plates.
+          
+          <!-- <img src="pictures/earth1.jpg" width="1200" height="281" border=1.5"> -->
+          <br>
+          <em><b>Note:</b></em> During the pandemic year, I utilized the above Seismic Explorer link as a case study/research within 
+              the Literature Review of the Virtual Physics/Physical Science Laboratory, 
+              as part of a Bridge to the Baccalaureate Undergraduate Research Experience student project.   
+          </p>
+
+
+          <!-- <br style="line-height: 24px" /> -->
+
+
+        <!-- <h3><li>Model traditional physics text problems into interdisciplinary fields: Geology, Marine Science, etc<font color=#000000><span class="normal-text"><br style="line-height: 40px" /> -->
+          <!-- Please click <a href="https://drive.google.com/file/d/1ghqiA4yWeM2gpCwk5uYoZ-zDc6iRnNBZ/view?usp=sharing" target="_blank">here</a> 
+          to access relevant model problems from my classroom -->
+          <!-- </span> </font></li></h3> -->
+
+          <!-- <p>   
+            Please click <a href="https://drive.google.com/file/d/1ghqiA4yWeM2gpCwk5uYoZ-zDc6iRnNBZ/view?usp=sharing" target="_blank"><b>here</b></a> 
+            to access introductory physics-style exercises, including model problems from my courses,
+            covering a range of topics from traditional physics to interdisciplinary subjects such as Geology, 
+            Marine Science, Atmospheric Science, Climatology, Life Sciences, and more. 
+            One important part of how I teach (incorporating my teaching philosophy) is focusing on making connections and showing the relevance to 
+            other disciplines and real-life scenarios. To do this, over the past thirty years of my physics education, 
+            I've collected many such problems that relate to other subjects and real-world situations.
+          </p> -->
+
+
+          <!-- <br style="line-height: 24px" /> -->
+
+
+        <!-- <h3><li>Flow of Viscous Fluid - Methods and Mechanisms -->
+          <!-- <font color=#000000><span class="normal-text"> Please click 
+          <a href="https://drive.google.com/file/d/1ghqiA4yWeM2gpCwk5uYoZ-zDc6iRnNBZ/view?usp=sharing" target="_blank">here</a> 
+          to access relevant model problems from my classroom</span> </font> -->
+        <!-- </li></h3> -->
+        <!-- <p>
+          Viscous fluid flow occurs when a liquid exhibits resistance to changes in its shape. It's important in many natural events and engineering applications. 
+          Understanding how it works helps us understand things like ocean currents and how magma moves in the Earth's mantle. We study it using math, computer models, and experiments. 
+          In Earth's core, molten iron and nickel move in a way that creates our magnetic field, which I believe occurs through the geodynamo process. 
+          This affects how our planet works inside and out. So, studying how liquids move is not just about scientific research. 
+          It helps us understand how Earth changes over time, the geophysical processes.
+        </p> -->
+
+        <!-- <p>
+          Click <a href="https://drive.google.com/file/d/1iRbevu8ewcsHQ0CAHftgcYnbwfqZ2qO_/view?usp=sharing" target="_blank"><b>here</b></a> to see some example problems 
+          related to fluid dynamics that are used in my calc-based introductory physics classes.
+        </p>
+
+        <p>
+          Review mathematical models of Viscosity, Poiseuille's law, and Laminar & Turbulent Drag forces. (TBU)
+        </p> -->
+
+        
+          <!-- <br style="line-height: 24px" /> -->
+
+        <h4><li><em>Activity ():</em> Shrinking Styrofoam Cups in Deep-Sea Conditions <font color=#000000; size="4px"><span class="unbold"> (<em>To Be Updated</em>)</span></font>
+            <!-- <font color=#000000><span class="unbold" style="font-size: 20px;"><br style="line-height: 40px" />Please click 
+            <a href="https://youtu.be/aIZW-emkLZo?si=aMoP7kzhfVQy101E" target="_blank">here</a> for relevant concept</span></font> -->
+            </li></h4>
+
+            <p class="indented custom-paragraph">
+            Please click <a href="https://youtu.be/aIZW-emkLZo?si=aMoP7kzhfVQy101E" target="_blank">here</a> for relevant concept.
+              While this Styrofoam type demonstration does not correspond with the objectives or the mission of this high-level seismic project during the trip, 
+              I am still inclined to propose it. <em>Let's Give It A Try!</em>😊
+              Alternatively, we could consider observing the experiment in a museum setting, or Request other adventurers or Resources 
+              to Witness it on a Deep-Sea Expedition. Required Equipment and Materials: Styrofoam cups, permanent markers, a cage or container to secure the cups, 
+              professional-grade ropes and hooks, and other logistical items for the experiment. It's worth noting that this demo can also be expensive and time consuming.  
+            </p>
+
+            <br style="line-height: 24px" />
+
+        <h4><li><em>Activity ():</em> Equatorial Sundial and more K-12 Classroom Activities & Resource <font color=#000000; size="4px"><span class="unbold"> (<em>To Be Updated</em>)</span></font>
+            <!-- <font color=#000000><span class="unbold" style="font-size: 20px;"><br style="line-height: 40px" />Please click 
+          <a href="https://mcdonaldobservatory.org/teachers/classroom" target="_blank">here</a> to learn about relevant concept, especially for kids in school</span></font> -->
+            </li></h4>
+
+          <p class="indented custom-paragraph">  
+            Please click <a href="https://mcdonaldobservatory.org/teachers/classroom" target="_blank">here</a> to learn about relevant concept, especially for kids in school.
+            Equatorial Sundial and Tools of the Astronomer. Creating an equatorial sundial is a simple yet effective way to understand essential 
+            astronomical principles and tools. Reference: The University of Texas at Austin.
+          </p>
+
+          
+
+
+      </ul>
+  </nav>     
+</main>
+
+
+
+
+<br>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSeusBNC0HL--oYHOCbqwMC-DWBQCS322pgl6Tw13fiA-amb7w/viewform?usp=sf_link" target="_blank">
+  <button style="background-color: transparent;"><font size="3px" color="red">Send me a message here!</font></button></a>
+<br><br>
+
+
+
+<footer>
+    <p><font size="2px">&copy;2024 https://www2.hawaii.edu/~buddhir/galapagos.html. All rights reserved.</font></p>
+
+    <!-- html code for visitor counter -->
+    <a href="https://www.freecounterstat.com" title="html code for visitor counter">
+    <img src="https://counter3.stat.ovh/private/freecounterstat.php?c=zuekhw1bqwtqbglry3uscq2csxq9x5sb" 
+    border="0" title="html code for visitor counter" alt="html code for visitor counter"></a>
+</footer>
+
+
+
+
+</div>
+<!-- end div wrapper -->
+
+</div>
+<!-- end div page -->
+
+</BODY>
+</HTML>
