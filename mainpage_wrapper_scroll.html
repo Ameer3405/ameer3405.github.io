@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"> -->
+    <title>Changing Background Image on Wrapper</title>
+    
+    <style>
+        /* Ensure padding is included in total width/height. I realised this is very crucial. */
+        *{
+            box-sizing: border-box;
+        }
+
+
+          /* Wrapper style to center content */
+        .wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* height: 100vh; */
+            text-align: left;
+            transition: background-image 1s ease-in-out; /* Smooth transition for background */
+            /* height: 193vh; */
+            height: fit-content; /* Wow wow wow, I discovered the ultimate solution for amy scale of Disply in the Display Settings */
+            width: 100%;               
+            /* Adjust width as needed */
+            margin: 5px;             /* Centers wrapper horizontally */
+            padding: 25px;            /* Padding inside the wrapper */
+            border-radius: 25px;      /* Rounds the corners */
+            border: 2px solid #333;   /* Adds a visible border */
+            /* background-size: 100%;   */
+            /* Make the background image cover the entire wrapper */
+            background-position: center 100px; /* Shift background image down by **px */
+            /* background-position: left 50px;  */
+            /* Shift background image down by 50px */
+        }
+
+
+         /* Paragraph style to align text to the left */
+            .left-align {
+            text-align: left;
+        }
+
+        /* Styling for your homepage image */
+        .homepage-image {
+            width: auto;
+            height: 150px;
+            margin: 20px 0;
+            border-radius: 10%; 
+            /* 50% Makes it round */
+        }  
+
+
+       
+
+        /* Content inside the wrapper */
+        .content {
+            color: black;
+            /* text-align: center; */
+            position: relative;
+            z-index: 2; /* Ensures content is on top of background */
+        }
+
+
+        /* Remove underline from links */
+        a {
+            text-decoration: none; /* Remove the underline */
+            color: blue; /* Change link color (optional) */
+        }
+
+
+
+        /* Reduce space above and below the greeting text */
+        .greeting {
+            margin: 8px 0; /* Adjust as needed to control vertical spacing */
+            margin-top: 25px;
+        }
+
+    
+        .shift-left {
+            margin-left: -80px; /* Adjust the value as needed */
+        }
+
+
+    </style>
+
+
+
+
+
+
+</head>
+
+
+
+<body>
+
+    <div class="wrapper">
+        <div class="content">
+            <br>
+            <center>
+            <h2 class="greeting"><span class="shift-left">Welcome to My Website!</span></h2>
+            </center>
+
+
+            <table align="center">
+                <td align="center">
+                <img src="pictures/buddhi9.jpg" alt="my homepage image" class="homepage-image" ></td>
+                       
+                <td align="center">
+                
+                <b>
+                <font face='Arial' color="#000000">  
+                <div align="left"><span style=" font-size:11pt"> &nbsp;&nbsp;&nbsp;&nbsp; BUDDHI RAI</span></div>
+                <div align="left"><span style=" font-size:11pt"> &nbsp;&nbsp;&nbsp;&nbsp; Associate Professor of Physics</span></div>
+                <div align="left"><span style=" font-size:11pt"> &nbsp;&nbsp;&nbsp;&nbsp; University of Hawaii Maui College</span></div>
+                <div align="left"><span style=" font-size:11pt"> &nbsp;&nbsp;&nbsp;&nbsp; STEM Division Interdisciplinary Program</span></div>
+                <div align="left"><span style=" font-size:11pt"> &nbsp;&nbsp;&nbsp;&nbsp; 310 W. Kaahumanu Ave, Kahului, HI 96732</span></div>
+                <div align="left"><span style=" font-size:11pt"> &nbsp;&nbsp;&nbsp;&nbsp; Office: (808) 984-3207, Mobile: (269) 359-2466</span></div>
+                <div align="left"><span style=" font-size:11pt"> &nbsp;&nbsp;&nbsp;&nbsp; Email: buddhi.rai@hawaii.edu</span></div>
+                <div align="left"><span style=" font-size:11pt"> &nbsp;&nbsp;&nbsp;&nbsp; Website: <a style="color: blue; text-decoration: none; text-underline: single" href="http://www2.hawaii.edu/~buddhir/" target="new">
+                <span style="color: maroon; text-decoration: none">http://www2.hawaii.edu/~buddhir/</span></a></span></div>
+                </font>
+                </b>
+            
+                </td>
+                 
+            </table>
+
+
+
+        <br style="line-height: 15px" />
+    
+
+    
+
+
+      <tr valign="top">
+        <td>
+        <!-- <h4><font size="5" face='Arial' color="#800000"><span>&nbsp;&nbsp;Education</span></font></h4> -->
+        <h4><font size="5" face='Arial' color="#800000"><span>&nbsp;&nbsp;Professional Preparation</span></font></h4>
+        </td>
+         <td>
+         <ul>
+        <font size="4" face='Arial' color="#000000">
+        <li>Ph.D. in Physics, Western Michigan University, 2012; Dissertation: Modeling Transmission of Photonic Crystal Waveguide Modes Enhanced by Kerr Nonlinearity; 
+        <br>Advisor: Dr. Arthur McGurn; Coursework GPA: 4.0/4.0</li>
+        <li>M.S. in Physics, Central Michigan University, 2005; Thesis: Quantum confinement of nanostructured systems; Advisor: Dr. Marco Fornari</li>
+        <li>M.Sc. in Physics, Tribhuvan University, 1994; In lieu of Thesis: Solid-state theory</li>
+        <li>B.Sc. in Physics, Chemistry & Mathematics, Tribhuvan University, 1991 </li>
+        </font>
+        </ul>
+        </td>
+      </tr>
+ 
+   
+        <br>
+
+      <tr valign="top">
+       <!-- <td> -->
+        <h4>
+        <!--<font face='Arial' color="#0000FF">Professional Experience </font> </h4></td>-->
+        <font size="5" face='Arial' color="#800000">&nbsp;&nbsp;Appointments & Positions</font></h4>
+        <!-- </td> -->
+        <!-- <td> -->
+        <ul>
+        <font size="4" face='Arial' color="#000000">
+            <li>8/2022 - present, Associate Professor of Physics, University of Hawaii Maui College, Kahului, Hawaii</li>
+            <li>8/2018 - 7/2022, Assistant Professor of Physics, University of Hawaii Maui College, Kahului, Hawaii</li>
+            <li>10/2013 - 7/2018, Faculty Instructor of Physics, University of Hawaii Maui College, Kahului, Hawaii</li>
+            <li>8/2006 - 9/2013, Doctoral Associate/Course Instr, Department of Physics Western Michigan University, Kalamazoo, MI</li>
+            <li>8/2012 - 9/2013, Adjunct Faculty, Department of Physics Kalamazoo Valley Community College, Kalamazoo, MI</li>
+            <li>7/2009 - 6/2012, Teaching Assistant Mentor, Department of Physics Western Michigan University, Kalamazoo, MI</li>
+            <li>8/2005 - 8/2006, Doctoral Teaching Associate, Department of Physics Western Michigan University, Kalamazoo, MI</li>
+            <li>6/2003 - 7/2005, Research Assistant, Department of Physics Central Michigan University, Mount Pleasant, MI</li>
+            <li>8/2002 - 5/2003, Teaching Assistant, Department of Physics Central Michigan University, Mount Pleasant, MI</li>
+            <li>8/1995 - 7/2002, Assistant Lecturer, Department of Physics Amrit Campus Tribhuvan University, Kathmandu, Nepal</li>
+            <li>8/1995 - 7/1999, Assistant Lecturer, Department of Science Padma Kanya Campus Tribhuvan University, Kathmandu, Nepal</li>
+        </font>
+        </ul>
+       <!-- </td> -->
+      </tr>  
+    
+
+   
+    
+      <br>
+
+      <tr valign="top">
+       <td><h4>
+        <font size="5" face='Arial' color="#800000">&nbsp;&nbsp;Program Development & Teaching Innovation</font></h4>
+        </td>
+        <td>
+        <ul>
+        <font size="4" face='Arial' color="#000000">
+        <li>Mentored student research and built global education partnerships blending science and culture.</li>
+        <li>Created a travel-study program integrating high-altitude field science in Hawai‘i and Nepal.</li>
+        <li>Led STEM Research Experience programs across platforms like PER, URE, PKII, B2B, and ‘IKE.</li>
+        <li>Delivered MCAT and engineering-focused physics with emphasis on problem solving and applied concepts with medical and technical relevance.</li>
+        <li>Built hybrid and online physics courses with interactive content and virtual lab simulations.</li>
+        <li>Taught Engineering Physics and Statics of Materials with real-world design and analysis.</li>
+        <li>Developed general physics and astronomy courses for non-science majors using active and inclusive teaching.</li>
+        <li>Designed pre-college physics and lab courses to support STEM readiness and hands-on learning.</li>
+        <li>Taught physics from fundamentals to quantum mechanics using real-world applications and active learning.</li>
+        <li>Taught advanced undergraduate electromagnetics using modeling, coding, and active learning.</li>
+        <li>Developed, re-designed, and taught vocational physics courses such as Technical Automotive Physics and Survey of Electrical Math & Physics.</li>
+        </font>
+        </ul>
+        </td>
+      </tr>
+    
+    
+    
+    
+    <br>
+      <tr valign="top">
+       <td><h4>
+    <a href="research.html" target="_blank" style="text-decoration: none">
+    <font size="5" face='Arial' color="#800000">&nbsp;&nbsp;Research Directions</font></a>
+          </h4></td>
+       <td>
+        <ul>
+
+    <font size="4" face='Arial' color="#000000">
+        
+         <li>Condensed matter and materials physics, and computational electromagnetics </li>
+         <li>Simulation and modeling of Kerr nonlinear modes in photonic crystal waveguides and resonators
+    using Difference Equation Theory, Finite-Difference Time-Domain and Plane Wave Expansion methods</li>
+         <li>Quantum confinement of nanostructured systems</li>
+         <li>Basic Physics Student Research Initiatives</li>
+
+    </font>
+
+         </ul>
+          </td>
+      </tr>
+    
+    
+    
+    
+    
+    
+    <br>
+      <tr valign="top">
+       <td><h4>
+
+    <!-- <font size="5" face='Arial' color="#800000">&nbsp;&nbsp;Publications/Presentations/Working Papers</font> -->
+    <font size="5" face='Arial' color="#800000">&nbsp;&nbsp;Products</font>
+    <font color=#000000; size="5px"><span class="unbold">(<em>To Be Updated</em>)</span></font>
+          </h4></td>
+       <td>
+        <ul>
+
+    <font size="4" face='Arial' color="#000000">
+
+    <li>PER, URE, STEM and STEAM related activities <font color=#000000; size="4px"><span class="unbold">(<em>To Be Updated</em>)</span></font></li>
+    <li>Multiplicity of transmission coefficients in photonic crystal and split ring resonator waveguides with Kerr nonlinear impurities,
+    Phys. Rev. B 91, 085113, February 2015. B Rai, and A R McGurn </li>
+    <li>Interaction of Nonlinear Modes in 2D Photonic Crystal Waveguides of Off-channel Features (in preparation for
+    publication)</li>
+    <li>Modeling of a Photonic Crystal Waveguide Mode with the FDTD Method, The Hilltop Review, Vol. 4: Iss. 2, Article 9.
+    Spring 2011, Western Michigan University: https://scholarworks.wmich.edu/hilltopreview/vol4/iss2/9/</li>
+    <li>Optical Bistability due to Difference Equation Waveguides in a 2D Photonic Crystal Circuit Mediated by
+     Kerr Nonlinearity on the Waveguide Channel</li>
+    <li>Kerr Nonlinear Modes in Photonic Crystal Waveguides with Off-Channel Features, B. Rai, G. Birkok, and A R McGurn, March Meeting of the American Physical Society, Boston, Massachusetts, February 29, 2012</li>
+    <li>Simulation of the Nonlinear Modes in Photonic Crystal Waveguides. B Rai, G Birkok,and A R McGurn, at Japan Society for the Promotion of Science US Fellow Alumni Association, October 28, Bernhard Center, WMU</li>
+    <li>CompuCell3D 2nd Annual Workshop - the summer school, June 2008,
+    Simulated cell activity, presented talk on On-site Features of Photonic Crystal Waveguide, received
+    CC3D Travel Grant, Indiana University Biocomplexity Institute, Bloomington, IN</li>
+    <li>8th Understanding Complex System Symposium, May 2008,
+    Contributed oral/paper presentation: Interaction of two different waveguide modes in Kerr media
+    photonic crystal, received UCS Travel Grant, University of Illinois at UrbanaChampaign, IL;
+     </li>
+
+    </font>
+         </ul>
+          </td>
+      </tr>
+    
+      <br>
+        
+    
+    <tr valign="top">
+    <!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Last updated in December 2024 -->
+    Last updated in December 2024
+    </tr>
+
+
+    <br>
+    <p></p>
+
+
+
+
+
+<footer>
+    <p><font size="2px">&copy;2024 https://www2.hawaii.edu/~buddhir/ All rights reserved.</font></p>
+
+    <!-- html code for visitor counter -->
+    <a href="https://www.freecounterstat.com" title="html code for visitor counter">
+    <img src="https://counter3.stat.ovh/private/freecounterstat.php?c=zuekhw1bqwtqbglry3uscq2csxq9x5sb" 
+    border="0" title="html code for visitor counter" alt="html code for visitor counter"></a>
+</footer>
+
+
+
+
+
+
+<!-- 
+  <div class="counter-box">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Visitor Count: <span id="count">520</span>
+  </div>
+
+  <script>
+    let count = localStorage.getItem("visitorCount");
+
+    if (count === null) {
+      count = 1;
+    } else {
+      count = parseInt(count) + 1;
+    }
+
+    localStorage.setItem("visitorCount", count);
+    document.getElementById("count").textContent = count;
+  </script> -->
+
+
+
+
+
+
+
+
+
+    <p></p>
+    
+    </div>
+</div>
+
+
+
+    <script>
+        const images = [
+        // The world starts here
+        'pictures/worldmap32.jpg',  // Replace with actual image URLs
+        'pictures/worldmap5.jpg',   // Replace with actual image URLs
+        'pictures/worldmap9.jpg',  // Replace with actual image URLs
+        'pictures/worldmap6.jpg',   // Replace with actual image URLs  
+        'pictures/worldmap13.jpg',   // Replace with actual image URLs  ???
+        'pictures/worldmap1.jpg',  // Replace with actual image URLs
+        'pictures/worldmap8.jpg',   // Replace with actual image URLs
+        'pictures/worldmap10.jpg',   // Replace with actual image URLs  ?
+        'pictures/worldmap11.jpg',   // Replace with actual image URLs
+        'pictures/worldmap25.jpg',   // Replace with actual image URLs   ??????
+        'pictures/worldmap12.jpg',   // Replace with actual image URLs
+            'pictures/worldmap41.jpg',   // Replace with actual image URLs
+            'pictures/worldmap43.jpg',   // Replace with actual image URLs
+            // Maui starts here
+            'pictures/worldmap35.jpg',   // Replace with actual image URLs 
+            // Nepal starts here
+            'pictures/worldmap33.jpg',  // Replace with actual image URLs 
+        ];
+
+        let currentIndex = 0;
+
+        function changeBackground() {
+            // Set the background image to the current index
+            document.querySelector('.wrapper').style.backgroundImage = `url(${images[currentIndex]})`;
+
+            // Increment the index
+            currentIndex++;
+
+            // If the index exceeds the number of images, reset it to 0
+            if (currentIndex >= images.length) {
+                currentIndex = 0;
+            }
+        }
+
+        // Change background image every 5 seconds (5000 milliseconds)
+        setInterval(changeBackground, 15000);
+
+        // Initial background image setup
+        changeBackground();
+    </script>
+
+
+
+
+
+</body>
+</html>
